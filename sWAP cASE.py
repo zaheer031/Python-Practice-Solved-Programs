@@ -35,7 +35,9 @@ def swap_case(s):
                 if(s[i].isupper()):
                         new += s[i].lower()
                 elif(s[i].islower):
-                        new += s[i].upper()      
+                        new += s[i].upper() 
+                else:        
+                        new += s[i]        
         return(new)
 
 if __name__ == '__main__':
